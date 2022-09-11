@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    overflow: hidden;
+}
+
+header {
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #383c42;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#18acfe, #0166e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form {
+    width: 35%;
+    height: 70vh;
+    background: #383c42;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 2%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-container input {
+    width: 90%;
+    height: 45px;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #312e42;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.input-container input:focus {
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.password-container {
+
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    color: #777;
+    cursor: pointer;
+}
+
+#eye {
+    display: none;
+}
+
+.password-infos {
+    width: 90%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.password-infos a {
+    transition: 0.2s ease-in-out;
+}
+
+.password-infos a:hover {
+    color: #18acfe;
+}
+
+button {
+    background: #18acfe;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    font-size: 1.6em;
+    margin-top: 5%;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #fff;
+    color: #18acfe;
+}
+
+.links-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-container span {
+    margin-top: 3%;
+    font-size: 0.8em;
+    font-weight: 600;
+
+
+}
+
+.links-container aside {
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links-container aside i {
+    font-size: 1.6em;
+    background-color: #fff;
+    padding: 18px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.3 ease-in-out;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-container aside .google {
+    color: #e34133;
+
+}
+
+.links-container aside .google:hover {
+    background: #e34133;
+    color: #FFF;
+}
+
+.links-container aside .linkedin {
+    color: #0a66c2;
+
+}
+
+.links-container aside .linkedin:hover {
+    background: #0a66c2;
+    color: #FFF;
+}
+
+.links-container aside .facebook {
+    color: #14a0f9;
+
+}
+
+.links-container aside .facebook:hover {
+    background: #14a0f9;
+    color: #FFF;
+}
+
+
+main footer {
+    width: 100%;
+    position: relative;
+    bottom: -20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+main span{
+    font-weight: 400;
+    font-size: 0.9em;
+
+}
+
+main span a {
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+main span a:hover {
+    color: #18acfe;
+
+}
+
+
+@media  (max-width: 768px) {
+  
+    main{
+    padding-top: 7%;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    main form{
+        width: 50%;
+    }
+
+    .password-infos{
+         font-size: 12px;
+        }
+
+    button{
+        width: 80%;
+        height: 40px;
+    }
+
+}
+
+
+
+@media  (max-width: 425px) {
+    main form{
+        width: 90%;
+    }
+.password-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+    
+
+    .links-container, aside {
+   display: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+}
+
+}
