@@ -138,7 +138,7 @@ button:hover {
 }
 
 .links-container span {
-    margin-top: 3%;
+    margin-top: 10%;
     font-size: 0.8em;
     font-weight: 600;
 
@@ -202,7 +202,7 @@ main footer {
     width: 100%;
     position: relative;
     bottom: -20px;
-
+    margin-top: 10%;
     display: flex;
     justify-content: center;
 }
@@ -251,12 +251,12 @@ main span a:hover {
 
 @media  (max-width: 425px) {
     main form{
-        width: 90%;
+        width: 95%;
     }
 .password-infos{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     margin-top: 5%;
 }
@@ -266,9 +266,17 @@ main span a:hover {
    display: none;
 }
 
+.input-container #email{
+    margin-top: 15%;
+}
+
+button{
+    margin-top: 20%;
+}
+
 footer{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 }
