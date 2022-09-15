@@ -164,3 +164,22 @@ footer p{
     font-size: 1rem;
     font-weight: 300;
 }
+
+@media screen and (min-width: 320px) and (max-width: 762px) {
+    .container form{
+        width: 90%;
+        height: 300px;
+        text-align: center;
+    }
+
+
+
+    .container .result-box{
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
