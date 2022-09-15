@@ -7,5 +7,8 @@ https://wagnernazarios.github.io/Projetos-1.0/login-helper/index.html
 
 ### Guess Number
 
-em breve...
+https://wagnernazarios.github.io/Projetos-1.0/guess-number/index.html
 
+### Star Devs
+
+Em breve...
