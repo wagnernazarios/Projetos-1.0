@@ -4,18 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="index.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <h1>Logo</h1>
 
-        <ul>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">me</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Star Devs</h1>
+    </header>
+
+    <main>
+        <section class="cards-main">
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Persongens</span>
+                    <h2 id="persons">Carregando...</h2>
+                </div>
+                <img src="img/darth.svg" alt="imagens personagem">
+            </div>
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Naves Estelares</span>
+                    <h2 id="starships">Carregando...</h2>
+                </div>
+                <img src="img/starship.svg" alt="imagens naves estelares">
+            </div>
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Planetas</span>
+                    <h2 id="planets">Carregando...</h2>
+                </div>
+                <img src="img/planet.svg" alt="imagens de planetas">
+            </div>
+        </section>
+
+
+        <section class="phrases-container">
+            <button id="btn-phrases" onclick="loadPhrase()">Ler uma frase</button>
+            <p id="phrase"></p>
+        </section>
+    </main>
+
 </body>
 </html>
