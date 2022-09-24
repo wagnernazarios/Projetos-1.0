@@ -9,6 +9,10 @@ https://wagnernazarios.github.io/Projetos-1.0/login-helper/index.html
 
 https://wagnernazarios.github.io/Projetos-1.0/guess-number/index.html
 
+##Timer
+
+https://wagnernazarios.github.io/Projetos-1.0/Timer/index.html
+
 ### Star Devs
 
 Em breve...
