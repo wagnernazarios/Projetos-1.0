@@ -13,6 +13,7 @@ https://wagnernazarios.github.io/Projetos-1.0/guess-number/index.html
 
 https://wagnernazarios.github.io/Projetos-1.0/Timer/index.html
 
-### Star Devs
+### Mini Piano
+Esse é um projeto que fiz enquanto estou estudando DOM. E desenvolvi esse projeto no MasterClass da Rocketseat.
 
-Em breve...
+https://mini-pian.netlify.app/
